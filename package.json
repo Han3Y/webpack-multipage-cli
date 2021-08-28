@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "qtech": "./bin/qtech.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Han3Y/webpack-multipage-cli.git"
@@ -17,9 +20,15 @@
   },
   "homepage": "https://github.com/Han3Y/webpack-multipage-cli#readme",
   "dependencies": {
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
     "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
     "ejs": "^3.1.3",
+    "figlet": "^1.5.2",
+    "fs-extra": "^9.0.0",
     "inquirer": "^7.1.0",
-    "fs-extra": "^9.0.0"
+    "ora": "^4.0.3",
+    "util": "^0.12.4"
   }
 }
