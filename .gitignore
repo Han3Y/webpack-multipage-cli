@@ -6,3 +6,5 @@ test
 src
 yarn.lock
 package-lock.json
+app
+testproject

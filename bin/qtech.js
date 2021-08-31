@@ -7,4 +7,10 @@ program
     .action(
         require('../lib/init')
     )
+program
+    .command('add <name>')
+    .description('add page')
+    .action(
+        require('../lib/create')
+    )
 program.parse(process.argv)
